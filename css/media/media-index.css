@@ -1,0 +1,332 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  	header{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+		height: 160px;
+	}
+	.service{
+		width: 80%;
+		margin: 0 auto;
+	}
+	.work{
+			width: 80%;
+			margin: 0 auto;
+		}
+	.footer{
+		width: 80%;
+	}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ 	p{
+ 		font-size: 80%;s
+ 	}
+ 	header{
+ 		width: 100%;
+ 		padding: 0;
+ 		margin: 0;
+ 	}
+ 	
+	.social i{
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+	}
+ 	.sect-one{
+ 		width: 96%;
+ 		height: 60px;
+ 		margin: 0 auto;
+ 	}
+ 	.sect-two{
+ 		width: 96%;
+ 		height: 50px;
+ 		margin: 0 auto;
+ 	}
+ 	nav ul li{
+		margin-right:20px;
+	}
+	nav a{
+		font-size: 75%;
+	}
+ 	.service{
+		width: 100%;
+	}
+	.work{
+			width: 100%;
+			border-bottom: 1px solid #424242;
+		}
+	.work-one img{
+			width: 230px;
+		}
+	.work-div{
+		width: 96%;
+		margin: 0 auto;
+			border-style: none;
+		}
+	
+	.footer{
+		width: 100%;
+	}
+	.four{
+		padding-right: 5px;
+	}
+	.one{
+		padding-left: 5px;
+	}
+	.four input{
+		width: 140px;
+	}
+    
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	    p{
+ 		font-size: 80%;
+	 	}
+	 	h1{
+	 		font-size: 140%;
+	 	}
+	 	header{
+	 		width: 100%;
+	 		padding: 0;
+	 		margin: 0;
+	 	}
+	 	
+		.social i{
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+		}
+	 	.sect-one{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+	 	.sect-two{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+	 	nav ul li{
+			margin-right:12px;
+		}
+		nav a{
+			font-size: 56%;
+		}
+		.sect-two i{
+			width: 15px;
+			color:  #F5F5F5;
+		}
+
+		.slider h1{
+			font-size: 180%;
+		}
+		.slider p{
+			font-size: 90%;
+		}
+		.slider button{
+			width: 90px;
+			height: 30px;
+			font-size: 90%;
+		}
+		.slider a{
+			font-size: 80%;
+		}
+
+
+	 	.service{
+			width: 100%;
+		}
+		.div-one a{
+			font-size: 90%;
+		}
+		.work{
+			width: 100%;
+			border-bottom: 1px solid #424242;
+			}
+		.work-div h4{
+			font-size: 90%;
+		}
+		.work-one img{
+				width: 150px;
+			}
+		.work-div{
+			width: 96%;
+			margin: 0 auto;
+				border-style: none;
+			}
+		.about button{
+			width: 90px;
+			height: 30px;
+			font-size: 70%;
+		}
+		.footer{
+			width: 100%;
+		}
+		.footer h4{
+			font-size: 90%;
+		}
+		.four{
+			padding-right: 5px;
+		}
+		.one{
+			display: none;
+		}
+		.two{
+			width: 20%;
+			padding-left: 5px;
+		}
+		.three{
+			width: 20%;
+		}
+		.four{
+			width: 30%;
+			padding-right: 5px;
+		}
+		.four input{
+			width: 100px;
+		}
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 480px) { 
+ 		p{
+ 			font-size: 80%;
+	 	}
+	 	h1{
+	 		font-size: 120%;
+	 	}
+	 	header{
+	 		width: 100%;
+	 		padding: 0;
+	 		margin: 0;
+	 	}
+	 	nav{
+	 		display: none;
+	 	}
+	 	
+		.social i{
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+		}
+	 	.sect-one{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+	 	.sect-two{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+		.sect-two i{
+			width: 15px;
+			color:  #F5F5F5;
+		}
+		.slider-div{
+			width: 96%;
+			margin: 0 auto;
+		}
+		.slider h1{
+			font-size: 120%;
+		}
+		.slider p{
+			font-size: 90%;
+		}
+		.slider button{
+			width: 90px;
+			height: 30px;
+			font-size: 90%;
+		}
+		.slider a{
+			font-size: 80%;
+		}
+
+
+	 	.service{
+			width: 100%;
+		}
+		.serv-two{
+			flex-direction: column;
+			height: auto;
+		}
+		.div-one{
+			width: 100%;
+			padding: 0;
+			border-bottom: 1px solid gray;
+		}
+		.div-one a{
+			font-size: 90%;
+		}
+		.work{
+			width: 100%;
+			border-bottom: 1px solid #424242;
+			}
+		.work-div h4{
+			font-size: 90%;
+		}
+		.work-one img{
+				width: 100%;
+			}
+		.work-one{
+			border-bottom: 1px solid gray;
+			padding-bottom: 5px;
+		}
+		.work-div{
+			width: 96%;
+			margin: 0 auto;
+			border-style: none;
+			flex-direction: column;
+			height: auto;
+			padding-bottom: 30px;
+			}
+		.our-work{
+			height: auto;
+		}
+		.back{
+			height: auto;
+		}
+		.about button{
+			width: 90px;
+			height: 30px;
+			font-size: 70%;
+		}
+		.footer{
+			width: 100%;
+		}
+		.footer h4{
+			font-size: 90%;
+		}
+		.four{
+			padding-right: 5px;
+		}
+		.one{
+			display: none;
+		}
+		.two{
+			display: none;
+		}
+		.three{
+			width: 40%;
+			font-size: 80%;
+			padding-left: 5px;
+		}
+		.four{
+			width: 40%;
+			padding-right: 5px;
+		}
+		.four input{
+			width: 100px;
+		}
+		footer span{
+			padding: 6px;
+			font-size: 60%;
+		}
+
+}

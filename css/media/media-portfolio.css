@@ -1,0 +1,318 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+ /**/	header{
+		width: 80%;
+		padding-left: 10%;
+		padding-right: 10%;
+		height: 160px;
+		}
+		.footer{
+		width: 80%;
+		}
+/**/
+.about{
+	width: 80%;
+}
+.head-div{
+		width: 80%;
+		margin: 0 auto;
+	}
+.port-one{
+		width: 80%;
+	}
+.port-two{
+		width: 80%;
+		}
+.portfolio-div{
+		width: 80%;
+		}
+	
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+/**/
+	p{
+ 		font-size: 80%;s
+ 	}
+ 	header{
+ 		width: 100%;
+ 		padding: 0;
+ 		margin: 0;
+ 	}
+ 	
+	.social i{
+		width: 25px;
+		height: 25px;
+		line-height: 25px;
+	}
+ 	.sect-one{
+ 		width: 96%;
+ 		height: 60px;
+ 		margin: 0 auto;
+ 	}
+ 	.sect-two{
+ 		width: 96%;
+ 		height: 50px;
+ 		margin: 0 auto;
+ 	}
+ 	nav ul li{
+		margin-right:20px;
+	}
+	nav a{
+		font-size: 75%;
+	}
+	.footer{
+		width: 100%;
+	}
+	.four{
+		padding-right: 5px;
+	}
+	.one{
+		padding-left: 5px;
+	}
+	.four input{
+		width: 140px;
+	}
+/**/
+ .about{
+	width: 100%;
+}
+.head-div{
+		width: 96%;
+		margin: 0 auto;
+	}
+.port-one{
+		width: 100%;
+	}
+.port-two{
+		width: 96%;
+		}
+.portfolio-div{
+		width: 96%;
+
+		}
+.portfolio-div img{
+		width: 230px;
+	}
+}
+
+
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+/**/
+	    p{
+ 		font-size: 80%;
+	 	}
+	 	h1{
+	 		font-size: 140%;
+	 	}
+	 	header{
+	 		width: 100%;
+	 		padding: 0;
+	 		margin: 0;
+	 	}
+	 	
+		.social i{
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+		}
+	 	.sect-one{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+	 	.sect-two{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+	 	nav ul li{
+			margin-right:12px;
+		}
+		nav a{
+			font-size: 56%;
+		}
+		.sect-two i{
+			width: 15px;
+			color:  #F5F5F5;
+		}
+		.footer{
+			width: 100%;
+		}
+		.footer h4{
+			font-size: 90%;
+		}
+		.four{
+			padding-right: 5px;
+		}
+		.one{
+			display: none;
+		}
+		.two{
+			width: 20%;
+			padding-left: 5px;
+		}
+		.three{
+			width: 20%;
+		}
+		.four{
+			width: 30%;
+			padding-right: 5px;
+		}
+		.four input{
+			width: 100px;
+		}
+/**/
+.about{
+	width: 100%;
+}
+.about button{
+		width: 120px;
+		height: 25px;
+		font-size: 60%;
+	}
+.head-div{
+		width: 96%;
+		margin: 0 auto;
+	}
+.port-one{
+		width: 100%;
+	}
+.port-two{
+		width: 96%;
+		font-size: 80%;
+		}
+.portfolio-div{
+		width: 96%;
+
+		}
+.portfolio-div img{
+		width: 150px;
+	}
+.portfolio-one{
+	font-size: 90%;
+}
+}
+
+
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 480px) { 
+ /**/
+ 		p{
+ 			font-size: 80%;
+	 	}
+	 	h1{
+	 		font-size: 120%;
+	 	}
+	 	header{
+	 		width: 100%;
+	 		padding: 0;
+	 		margin: 0;
+	 	}
+	 	nav{
+	 		display: none;
+	 	}
+	 	
+		.social i{
+			width: 20px;
+			height: 20px;
+			line-height: 20px;
+		}
+	 	.sect-one{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+	 	.sect-two{
+	 		width: 96%;
+	 		height: 40px;
+	 		margin: 0 auto;
+	 	}
+		.sect-two i{
+			width: 15px;
+			color:  #F5F5F5;
+		}
+		.footer{
+			width: 100%;
+		}
+		.footer h4{
+			font-size: 90%;
+		}
+		.four{
+			padding-right: 5px;
+		}
+		.one{
+			display: none;
+		}
+		.two{
+			display: none;
+		}
+		.three{
+			width: 40%;
+			font-size: 80%;
+			padding-left: 5px;
+		}
+		.four{
+			width: 40%;
+			padding-right: 5px;
+		}
+		.four input{
+			width: 100px;
+		}
+		footer span{
+			padding: 6px;
+			font-size: 60%;
+		}
+/**/
+.about{
+	width: 100%;
+}
+.about button{
+		width: 120px;
+		height: 25px;
+		font-size: 60%;
+	}
+.head-div{
+		width: 96%;
+		margin: 0 auto;
+	}
+.port-one{
+		width: 100%;
+	}
+.port-two{
+		width: 96%;
+		font-size: 50%;
+		height: 90px;
+		}
+.port-two a{
+		padding-right: 5px;
+		color: #212121;
+	}
+.portfolio-div{
+		width: 96%;
+		flex-direction: column;
+		height: auto;
+		justify-content: center;
+		align-items: center;
+		padding: 10px 0;
+
+		}
+.portfolio-div img{
+		width: 100%;
+	}
+.portfolio-one{
+	font-size: 90%;
+	align-items: center;
+	height: auto;
+	border-bottom: 1px solid gray;
+	padding: 10px 0;
+}
+.portfolio{
+		height: auto;
+	}
+.back{
+		height: auto;
+	}
+
+}

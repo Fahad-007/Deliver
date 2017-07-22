@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html,body{
+}
+a{
+	text-decoration: none;
+}
+/**/
+	header{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		height: 160px;
+	}
+	.sect-one{
+		border-bottom: 1px solid gray;
+		display: flex;
+		justify-content: space-between;
+		height: 80px;
+		align-items: center;
+	}
+	.social i{
+		width: 35px;
+		height: 35px;
+		text-align: center;
+		margin: 5px;line-height: 35px;
+		background-color: #BDBDBD;
+		border-radius: 50%;
+		color: #424242;
+	}
+	.social i:hover{
+		background-color: #F5F5F5;
+		border-radius: 50%;
+		color: #424242;
+	}
+
+
+	.sect-two{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 60px;
+	}
+	nav ul li{
+		float: left;
+		list-style: none;
+		margin-right:30px;
+	}
+	nav a{
+		text-decoration: none;
+		color: #424242;
+		font-size: 80%;
+	}
+	nav a:hover{
+		color: #66BB6A;
+	}
+	.servise-li a{
+		color:#66BB6A; 
+	}
+	.servise-li a:hover{
+		color:#424242;
+	}
+	.sect-two i{
+		color:  #BDBDBD;
+	}
+
+/**/
+	.head-two{
+		background:url(../img/portfolio/1.jpg);
+		height: 80px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.head-div{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.head-div h1{
+		line-height: 70px;
+		color: #FAFAFA;
+	}
+
+
+/**/
+	.service{
+	}
+	.service-div{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.service-head{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 150px;
+		border-bottom: 1px solid gray;
+	}
+	.service-head h1{
+		padding-bottom: 10px;
+	}
+	
+	.items{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 400px;
+		height: 150px;
+	}
+
+	.items h5{
+		padding-bottom: 10px;
+		padding-left: 10px;
+	}
+	.items p{
+		font-size: 80%;
+		padding-left: 10px;
+	}
+	.item-one{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+/**/
+		.servise-sect{
+			height: 510px;
+		}
+		.back{
+			height: 440px;
+			background-color: #E0E0E0;
+		}
+		.servise-sec{
+			width: 70%;
+			margin: 0 auto;
+			height: 520px;
+			border-bottom: 1px solid gray;
+		}
+		.serv-div-head{
+			text-align: center;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			height: 150px;
+		}
+		.serv-div-head h1{
+			padding-bottom: 10px;
+			color: #757575;
+		}
+		.serv-div-head p{
+			color: #757575;
+		}
+
+
+		.serv-div{
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			margin: 0 auto;
+		}
+		.serv-div-one{
+			background-color: #FAFAFA;
+			height: 290px;
+			width: 220px;
+			text-align: center;
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			text-align: center;
+			flex-direction: column;
+			margin: 2px;
+		}
+		.serv-div-one h2{
+			width: 220px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 100%;
+			color: #FAFAFA;
+			background-color: #689F38;
+		}
+		.serv-div-one h5{
+			width: 220px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 100%;
+			color: #FAFAFA;
+			background-color: #689F38;
+		}
+		.serv-div-one h1{
+			width: 200px;
+			height: 40px;
+			line-height: 40px;
+			font-size: 160%;
+			color: #616161;
+			border-bottom: 1px solid gray;
+		}
+		.serv-div-one button{
+			width: 100px;
+			height: 20px;
+			border-style: none;
+			background-color: #C8E6C9;
+			font-size: 70%;
+			cursor: pointer;
+		}
+		.serv-div-one p{
+			width: 180px;
+			height: 30px;
+			line-height: 30px;
+			font-size: 90%;
+			color: #616161;
+			border-bottom: 1px solid gray;
+		}
+
+		.big{
+			height: 330px;
+		}
+
+/**/
+	.about-service-div{
+		width: 70%;
+		height: 250px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		border-bottom: 1px solid gray;
+	}
+	.text-div{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		text-align: left;
+		width: 300px;
+		margin: 2px;
+	}
+	.about-service h4{
+		font-size: 100%;
+		color: #757575;
+	}
+	.about-service p{
+		font-size: 90%;
+		color: #757575;
+	}
+
+
+
+
+/**/
+	.about{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 190px;
+	}
+	.about h1{
+		color: #757575;
+	}
+	.about p{
+		color: #757575;
+		padding: 10px;
+	}
+	.about button{
+		width: 110px;
+		height: 40px;
+		background-color: #66BB6A;
+		border-style: none;
+		transition: .2s ease-in;
+		color:#EEEEEE;
+	}
+	.about button:hover{
+		background-color: transparent;
+		border:1px solid gray;
+		color: #424242;
+	}
+
+/**/
+	footer{
+		background-color: #424242;
+		height: 300px;
+	}
+	footer span{
+		float: right;
+		padding: 10px;
+		color: #757575;
+	}
+	.footer{
+		width: 70%;
+		margin: 0 auto;
+		padding: 30px 0;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid #757575;
+	}
+	.fourth{
+
+	}
+	.one{
+		width: 39%;
+		padding-right: 2%;
+	}
+	.two{
+		width: 15%;
+		padding-right: 2%;
+	}
+	.three{
+		width: 15%;
+		padding-right: 2%;
+	}
+	.four{
+		width: 25%;
+	}
+
+/**/
+	.one p{
+		color: #757575;
+	}
+	.one-head span{
+		float: right;
+	}
+	.one-head i{
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		text-align: center;
+		background-color: #9E9E9E;
+		color: #424242;
+		border-radius: 50%;
+	}
+	.one-head i:hover{
+		background-color: #F5F5F5;
+	}
+	.one-head{
+		height: 40px;
+	}
+/**/
+	.two h4{
+		color: #EEEEEE;
+	}
+	.two p{
+		color: #757575;
+		padding: 20px 0;
+	}
+
+/**/
+	.three h4{
+		color: #EEEEEE;
+		padding-bottom: 20px;
+	}
+	.three li,a{
+		list-style: none;
+		color: #757575;
+		padding-bottom: 6px;
+	}
+	.three a i{
+		color: #EEEEEE;
+	}
+
+/**/
+	.four h4{
+		color: #EEEEEE;
+	}
+	.four p{
+		color: #757575;
+		padding: 20px 0;
+	}
+	.four input{
+		width: 150px;
+		height: 20px;
+		border:1px solid #E0E0E0;
+		background-color: #424242
+		color: white;
+	}
+	.four button{
+		width: 30px;
+		height: 22px;
+		border-style: none;
+	}
+	.four button:hover{
+		background-color: #4CAF50;
+	}

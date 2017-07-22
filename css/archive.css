@@ -1,0 +1,260 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+html,body{
+}
+a{
+	text-decoration: none;
+}
+/**/
+	header{
+		width: 70%;
+		padding-left: 15%;
+		padding-right: 15%;
+		height: 160px;
+	}
+	.sect-one{
+		border-bottom: 1px solid gray;
+		display: flex;
+		justify-content: space-between;
+		height: 80px;
+		align-items: center;
+	}
+	.social i{
+		width: 35px;
+		height: 35px;
+		text-align: center;
+		margin: 5px;line-height: 35px;
+		background-color: #BDBDBD;
+		border-radius: 50%;
+		color: #424242;
+	}
+	.social i:hover{
+		background-color: #F5F5F5;
+		border-radius: 50%;
+		color: #424242;
+	}
+
+
+	.sect-two{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 60px;
+	}
+	nav ul li{
+		float: left;
+		list-style: none;
+		margin-right:30px;
+	}
+	nav a{
+		text-decoration: none;
+		color: #424242;
+		font-size: 80%;
+	}
+	nav a:hover{
+		color: #66BB6A;
+	}
+	.archive-li a{
+		color:#66BB6A; 
+	}
+	.archive-li a:hover{
+		color:#424242;
+	}
+	.sect-two i{
+		color:  #BDBDBD;
+	}
+
+/**/
+	.head-two{
+		background:url(../img/portfolio/1.jpg);
+		height: 80px;
+		background-size: cover;
+		background-attachment: fixed;
+	}
+	.head-div{
+		width: 70%;
+		margin: 0 auto;
+	}
+	.head-div h1{
+		line-height: 70px;
+		color: #FAFAFA;
+	}
+
+
+/**/
+	.body-div{
+		width: 70%;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		padding: 40px 0;
+	}
+	.body-div li{
+		list-style: none;
+		font-size: 95%;
+		color: #757575;
+	}
+	.body-div h2{
+		font-size: 95%;
+		color: #424242;
+		padding: 15px 0;
+	}
+	.body-div p{
+		color: #757575;
+	}
+	.body-div i{
+		color: #424242;
+	}
+
+	.body-div-one li{
+		padding-left: 15px;
+		padding-bottom: 10px;
+	}
+	.body-div-one{
+		padding-right: 30px;
+	}
+
+
+
+
+	.body-div-two li{
+		width: auto;
+		height: 30px;
+		line-height: 30px;
+		padding-bottom: 5px;
+		border-bottom: 1px solid gray;
+	}
+	.widget{
+		padding: 10px 0;
+	}
+	.body-div-two img{
+		width: 80px;
+		height: 80px;
+		padding: 5px;
+	}
+
+	.twitter-one{
+		height: 80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		border-bottom: 1px solid gray;
+	}
+	.twitter-one p{
+		padding-bottom: 10px;
+	}
+	.twitter a{
+		color: #4CAF50;
+	}
+	.twitter p{
+		padding: 10px 0;
+	}
+
+/**/
+	footer{
+		background-color: #424242;
+		height: 300px;
+	}
+	footer span{
+		float: right;
+		padding: 10px;
+		color: #757575;
+	}
+	.footer{
+		width: 70%;
+		margin: 0 auto;
+		padding: 30px 0;
+		display: flex;
+		justify-content: space-between;
+		border-bottom: 1px solid #757575;
+	}
+	.fourth{
+
+	}
+	.one{
+		width: 39%;
+		padding-right: 2%;
+	}
+	.two{
+		width: 15%;
+		padding-right: 2%;
+	}
+	.three{
+		width: 15%;
+		padding-right: 2%;
+	}
+	.four{
+		width: 25%;
+	}
+
+/**/
+	.one p{
+		color: #757575;
+	}
+	.one-head span{
+		float: right;
+	}
+	.one-head i{
+		width: 20px;
+		height: 20px;
+		line-height: 20px;
+		text-align: center;
+		background-color: #9E9E9E;
+		color: #424242;
+		border-radius: 50%;
+	}
+	.one-head i:hover{
+		background-color: #F5F5F5;
+	}
+	.one-head{
+		height: 40px;
+	}
+/**/
+	.two h4{
+		color: #EEEEEE;
+	}
+	.two p{
+		color: #757575;
+		padding: 20px 0;
+	}
+
+/**/
+	.three h4{
+		color: #EEEEEE;
+		padding-bottom: 20px;
+	}
+	.three li,a{
+		list-style: none;
+		color: #757575;
+		padding-bottom: 6px;
+	}
+	.three a i{
+		color: #EEEEEE;
+	}
+
+/**/
+	.four h4{
+		color: #EEEEEE;
+	}
+	.four p{
+		color: #757575;
+		padding: 20px 0;
+	}
+	.four input{
+		width: 150px;
+		height: 20px;
+		border:1px solid #E0E0E0;
+		background-color: #424242
+		color: white;
+	}
+	.four button{
+		width: 30px;
+		height: 22px;
+		border-style: none;
+	}
+	.four button:hover{
+		background-color: #4CAF50;
+	}
